@@ -1,0 +1,29 @@
+body{
+    align-items: center;
+}
+.form-label{
+    color: red;
+}
+.d{
+    background-color: red;
+    border-radius: 1rem;
+}
+#anzeigen{
+    background: whitesmoke;
+    width: 21.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+
+    border-radius: 8px;
+
+}
+.gen{
+    color: white;
+}
+
+.numberInput{
+    text-align: center;
+}
+.checkBox{
+    color: white;
+}
