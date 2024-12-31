@@ -49,7 +49,8 @@ function copyText() {
     const textToCopy = document.getElementById("anzeigen").textContent;
     navigator.clipboard.writeText(textToCopy)
         .then(function() {
-            document.getElementById("anzeigen").textContent = "Kopiert";
-        });
+            alert("Text wurde kopiert!");
+            document.getElementById("anzeigen").textContent = '';
+        })
 }
 document.getElementById("copyButton").addEventListener("click", copyText);
